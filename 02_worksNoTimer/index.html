@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Trivia Game</title>
+
+  <!-- Added link to the jQuery Library -->
+<!--   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+ -->
+  <!-- Bootstraps compiled all inclusive CDN-->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
+  <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
+
+  <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+
+</head>
+<body>
+
+	<div class="jumbotron">
+    	<h1 class="text-center">80s Trivia Game</h1>
+	</div>
+
+  <div class="container">
+		
+    	<div class="row justify-content-center">
+    		 <!-- Region: Instructions Content -->
+        <div class="col-lg-8">
+         
+          <div id="page_instructionsSection" class="card card-inverse card-info text-center">
+            <div class="card-block">
+                <h3> Instructions</h3>
+                <p>Test your knowledge of the 80s. You have 3 questions to answer and a time limit of 10 seconds for each question. Good Luck!</p>
+                <button id="btn_startGame" type="button" class="btn btn-primary">Start Game</button>
+            </div>
+          </div>
+				
+			 </div>
+      <!-- Region: Game Contant -->
+      <div class="col-lg-8">
+       
+        <div id="page_questionSection" class="card card-inverse card-info text-center">
+          <!-- Seconds Display -->
+          <p>Seconds left:<span class="page_seconds"> </span></p>
+          <!-- Question Display -->
+          <div id="page_question">
+
+          </div>
+          <!-- Answers Display -->
+          <div id="page_answers" class="btn-group-vertical p-1">
+
+          </div>
+        </div>
+
+    </div>
+     <!-- Region: Game Over Contant -->
+    <div class="col-lg-8">
+         
+          <div id="page_gameoverSection" class="card card-inverse card-info text-center">
+            <div class="card-block">
+                <h3> Results</h3>
+                <p>Correct Guesses:<span class="page_guessesRight"> </span></p>
+                <p>Incorrect Guesses:<span class="page_guessesWrong"> </span></p>
+                <button id="btn_startNewGame" type="button" class="btn btn-primary">Play Again</button>
+            </div>
+          </div>
+        
+       </div>
+
+
+
+    	<!-- End Region: Game Space -->
+		</div>
+	<!-- Region: Close Container -->
+	</div>
+
+<script src="assets/javascript/app.js"></script>
+
+
+</body>
+</html>
