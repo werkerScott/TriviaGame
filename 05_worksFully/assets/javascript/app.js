@@ -4,11 +4,10 @@
 // representing the intro, the game Q/A, and the end of game
 // I am showing and hiding these regions dynamically
 // and creating the answer buttons dynamically each round
-// I am not sure if this is a valid best practice, one thing that happens is there
-// is a flicker at the beginning where the page loads, then, hides things
+// I am not sure of this is a best practice, one thing that happens is there
+// is a flicker at teh beginning where the page loads, then, hides things
 // If using this technique, it is probably better to use JS to toggle CSS
-// visibility, that way, could set visibility initially with the CSS so no flicker
-// Please give me feedback on this approach!
+// visibility, that way, could set visibility initially with the CSS
 
 // I got the game running first, then tried to figure out how to add the timer functionality
 
@@ -165,7 +164,7 @@ var app = {
       // start page countdown display
       app.start_counter();
       // start timer
-      timer = setTimeout(app.timeUp, 1000 * 11);
+      timer = setTimeout(app.timeUp, 1000 * 10);
       }
 
       //////// IS GAME OVER? No, then...  //////// 
@@ -185,10 +184,8 @@ var app = {
     clearInterval(intervalId);
     // DONE: Use setInterval to start the count here and set the clock to running.
     time=10;
-    // print first number
-    $(".page_seconds").text(time);
     intervalId = setInterval(app.loop_counter, 1000);
-
+ 
     },
 
 
