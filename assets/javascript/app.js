@@ -133,11 +133,11 @@ var questionsArray = [
       },
            {
         answerText: "Nintendo Entertainment System",
-        answerCorrect: 1,
+        answerCorrect: 2,
       },
       {
         answerText: "Nintendo Game Boy",
-        answerCorrect: 2,
+        answerCorrect: 1,
       },
       {
         answerText: "Commodore SX-64",
@@ -459,7 +459,7 @@ var app = {
   app.new_game();
   // either the intro page is loaded or the next question at this point. If intro page is loaded the funvtions land you back here
   // note: there is a button event listener for start game in start_game function
-  
+ 
 
 // Region: Instructions Content
   $(document).on("click", "#btn_startGame", function(event) {
@@ -470,6 +470,7 @@ var app = {
   });
 
 // Region: Game Contant
+
   $(document).on("click", ".selected_answer", function(event) {
     // stop timers
     app.clear_allTimers();

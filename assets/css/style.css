@@ -16,3 +16,7 @@ body {
 	font-family: 'Audiowide', cursive;
 	  -webkit-text-stroke: 3px black;
 }
+
+button:hover {
+cursor: url(../images//alf_cursor.gif),auto;
+}
