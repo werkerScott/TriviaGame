@@ -81,6 +81,174 @@ var questionsArray = [
         answerCorrect: 1,
       }
     ]
+  },
+  {
+    question: "With over 50 reported casualties, what volcano erupted in 1980 that became the worst volcanic disaster in US history?",
+    answersArray: [
+      {
+        answerText: "Mt. Saint Helens",
+        answerCorrect: 2,
+      },
+           {
+        answerText: "Mt. Rainer",
+        answerCorrect: 1,
+      },
+      {
+        answerText: "Mt. Hood",
+        answerCorrect: 1,
+      },
+      {
+        answerText: "Mt. Olympus",
+        answerCorrect: 1,
+      }
+    ]
+  },
+  {
+    question: "What was the first video played on MTV?",
+    answersArray: [
+      {
+        answerText: "The Buggles - Video Killed The Radio Star",
+        answerCorrect: 2,
+      },
+           {
+        answerText: "A-Ha - Take On Me",
+        answerCorrect: 1,
+      },
+      {
+        answerText: "AC/DC - Back in Black",
+        answerCorrect: 1,
+      },
+      {
+        answerText: "Sex Pistols - Anarchy in the UK",
+        answerCorrect: 1,
+      }
+    ]
+  },
+  {
+    question: "What gaming console, launched in 1983, became the best selling Video Game Console of the 80s?",
+    answersArray: [
+      {
+        answerText: "Atari 2600",
+        answerCorrect: 1,
+      },
+           {
+        answerText: "Nintendo Entertainment System",
+        answerCorrect: 1,
+      },
+      {
+        answerText: "Nintendo Game Boy",
+        answerCorrect: 2,
+      },
+      {
+        answerText: "Commodore SX-64",
+        answerCorrect: 1,
+      }
+    ]
+  },
+  {
+    question: "Though this toy was technically invented in 1974, it gained its massive popularity in the 1980s. With over 350 MILLION units sold, it is widely considered to be the best selling toy in history.",
+    answersArray: [
+      {
+        answerText: "The Yo-Yo",
+        answerCorrect: 1,
+      },
+           {
+        answerText: "Etch-A-Sketch",
+        answerCorrect: 1,
+      },
+      {
+        answerText: "Pong",
+        answerCorrect: 1,
+      },
+      {
+        answerText: "Rubik’s Cube",
+        answerCorrect: 2,
+      }
+    ]
+  },
+  {
+    question: "This Prime Minister of the United Kingdom was the first female leader of a Western country, nicknamed 'The Iron Lady'",
+    answersArray: [
+      {
+        answerText: "Princess Diana Spencer",
+        answerCorrect: 1,
+      },
+           {
+        answerText: "Queen Elizabeth Windsor",
+        answerCorrect: 1,
+      },
+      {
+        answerText: "Lady Margaret Sackville",
+        answerCorrect: 1,
+      },
+      {
+        answerText: "Baroness Margret Thatcher",
+        answerCorrect: 2,
+      }
+    ]
+  },
+  {
+    question: "What was the most famous and large-scale nuclear plant meltdown in history, occurring on April 26, 1986?",
+    answersArray: [
+      {
+        answerText: "Chernobyl",
+        answerCorrect: 2,
+      },
+           {
+        answerText: "Three-Mile Island",
+        answerCorrect: 1,
+      },
+      {
+        answerText: "Fukushima",
+        answerCorrect: 1,
+      },
+      {
+        answerText: "Leningrad",
+        answerCorrect: 1,
+      }
+    ]
+  },
+  {
+    question: "What world-changing musician was murdered outside of his building in New York City on the evening of December 8th, 1980?",
+    answersArray: [
+      {
+        answerText: "Marvin Gaye",
+        answerCorrect: 1,
+      },
+           {
+        answerText: "Johnny Cash",
+        answerCorrect: 1,
+      },
+      {
+        answerText: "John Lennon",
+        answerCorrect: 2,
+      },
+      {
+        answerText: "Sid Viscous",
+        answerCorrect: 1,
+      }
+    ]
+  },
+  {
+    question: "What 1980's sitcom was Tony Danza in?",
+    answersArray: [
+      {
+        answerText: "Family Ties",
+        answerCorrect: 1,
+      },
+           {
+        answerText: "Who’s the Boss",
+        answerCorrect: 2,
+      },
+      {
+        answerText: "Different Strokes",
+        answerCorrect: 1,
+      },
+      {
+        answerText: "Full House",
+        answerCorrect: 1,
+      }
+    ]
   }
 
 ];
